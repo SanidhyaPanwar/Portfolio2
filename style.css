@@ -76,7 +76,7 @@ section .title::after {
 	bottom: -8px;
 	left: 50%;
 	font-size: 20px;
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	padding: 0 5px;
 	background: #fff;
 	transform: translateX(-50%);
@@ -93,7 +93,7 @@ section .title::after {
 }
 .navbar.sticky {
 	padding: 15px 0;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 }
 .navbar .max-width {
 	display: flex;
@@ -101,12 +101,13 @@ section .title::after {
 	justify-content: space-between;
 }
 .navbar .logo a {
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	color: #fff;
 	font-size: 35px;
 	font-weight: 600;
 }
 .navbar .logo a span {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -125,7 +126,7 @@ section .title::after {
 	transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 }
 .navbar.sticky .menu li a:hover {
 	color: #fff;
@@ -142,7 +143,7 @@ section .title::after {
 	position: fixed;
 	height: 45px;
 	width: 42px;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 	right: 30px;
 	bottom: 10px;
 	text-align: center;
@@ -169,7 +170,7 @@ section .title::after {
 /* home section styling */
 .home {
 	display: flex;
-	background: url("images/giphy.gif") no-repeat center;
+	background: url("images/bg3.jpg") no-repeat center;
 	height: 100vh;
 	color: #fff;
 	min-height: 500px;
@@ -182,34 +183,37 @@ section .title::after {
 }
 .home .home-content .text-1 {
 	font-size: 27px;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .home .home-content .text-2 {
 	font-size: 75px;
 	font-weight: 600;
 	margin-left: -3px;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .home .home-content .text-3 {
 	font-size: 40px;
 	margin: 5px 0;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .home .home-content .text-3 span {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	font-weight: 500;
 }
 .home .home-content a {
 	display: inline-block;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 	color: #fff;
 	font-size: 25px;
 	padding: 12px 36px;
 	margin-top: 20px;
 	font-weight: 400;
 	border-radius: 6px;
-	border: 2px solid rgb(181, 0, 252);
+	border: 2px solid rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	background: none;
 }
 
@@ -221,8 +225,8 @@ section .title::after {
 	width: 45%;
 }
 .about .about-content .left img {
-	height: 400px;
-	width: 400px;
+	width: 330px;
+	box-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	object-fit: cover;
 	border-radius: 6px;
 }
@@ -235,25 +239,25 @@ section .title::after {
 	margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 }
 .about .about-content .right p {
 	text-align: justify;
 }
 .about .about-content .right a {
 	display: inline-block;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 	color: #fff;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 10px 30px;
 	margin-top: 20px;
 	border-radius: 6px;
-	border: 2px solid rgb(181, 0, 252);
+	border: 2px solid rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	background: none;
 }
 
@@ -270,10 +274,10 @@ section .title::after {
 .interests .title::after,
 .projects .title::after {
 	background: #111;
-	content: "Things I Love";
+	content: "You Can Trust";
 }
 .interests .serv-content .card {
-	width: calc(33% - 20px);
+	width: calc(33% - 10px);
 	background: #222;
 	text-align: center;
 	border-radius: 6px;
@@ -282,7 +286,7 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .interests .serv-content .card:hover {
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 }
 .interests .serv-content .card .box {
 	transition: all 0.3s ease;
@@ -292,7 +296,7 @@ section .title::after {
 }
 .interests .serv-content .card i {
 	font-size: 50px;
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	transition: color 0.3s ease;
 }
 .interests .serv-content .card:hover i {
@@ -307,7 +311,7 @@ section .title::after {
 /* skills section styling */
 
 .skills .title::after {
-	content: "My Learnings";
+	content: "Know More";
 }
 .skills .skills-content .column {
 	width: calc(50% - 30px);
@@ -322,22 +326,23 @@ section .title::after {
 }
 .skills .skills-content .left a {
 	display: inline-block;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 	color: #fff;
 	font-size: 18px;
 	font-weight: 500;
 	padding: 8px 16px;
 	margin-top: 20px;
 	border-radius: 6px;
-	border: 2px solid rgb(181, 0, 252);
+	border: 2px solid rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	background: none;
 }
-.skills .skills-content .right .bars {
-	margin-bottom: 15px;
+.skills .skills-content .right img {
+	height: auto;
+	width: 500px;
 }
 .skills .skills-content .right .info {
 	display: flex;
@@ -361,7 +366,7 @@ section .title::after {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 }
 .skills-content .right .html::before {
 	width: 80%;
@@ -395,7 +400,7 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .projects .carousel .card:hover {
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 }
 .projects .carousel .card .box {
 	display: flex;
@@ -417,7 +422,7 @@ section .title::after {
 	width: 150px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 5px solid rgb(181, 0, 252);
+	border: 5px solid rgb(0, 252, 134);
 	transition: all 0.3s ease;
 }
 .projects .carousel .card:hover img {
@@ -452,7 +457,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
 	font-size: 25px;
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 }
 .contact .contact-content .info .head {
 	font-weight: 500;
@@ -506,8 +511,8 @@ section .title::after {
 .contact .right form .button button {
 	width: 100%;
 	height: 100%;
-	border: 2px solid rgb(181, 0, 252);
-	background: rgb(181, 0, 252);
+	border: 2px solid rgb(0, 252, 134);
+	background: rgb(0, 252, 134);
 	color: #fff;
 	outline: none;
 	font-size: 20px;
@@ -517,7 +522,7 @@ section .title::after {
 	transition: all 0.3s ease;
 }
 .contact .right form .button button:hover {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	background: none;
 }
 
@@ -529,7 +534,7 @@ footer {
 	text-align: center;
 }
 footer span a {
-	color: rgb(181, 0, 252);
+	color: rgb(0, 252, 134);
 	text-decoration: none;
 }
 footer span a:hover {
@@ -541,7 +546,7 @@ footer span .social a {
 	height: 46px;
 	text-align: center;
 	padding-top: 0.3cm;
-	background: rgb(181, 0, 252);
+	background: rgb(0, 252, 134);
 	color: #fff;
 	text-decoration: none;
 	border-radius: 50%;
@@ -581,8 +586,8 @@ footer span .social a:nth-child(4):hover {
 
 @media (max-width: 1104px) {
 	.about .about-content .left img {
-		height: 350px;
-		width: 350px;
+		width: 330px;
+		box-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	}
 }
 
